@@ -1,4 +1,4 @@
-# ktmage's Karabiner-Elements 設定
+## 概要
 
 個人用のKarabiner-Elements設定ファイルです。
 
