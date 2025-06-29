@@ -1,0 +1,44 @@
+{
+    "title": "ktmage's Karabiner-Elements Configuration",
+    "version": "1.0.0",
+    "author": "ktmage",
+    "description": "Personal Karabiner-Elements configuration for enhanced productivity",
+    "rules": [
+      {
+        "description": "ktmage: Mouse Button 4 → Mission Control",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "pointing_button": "button4"
+            },
+            "to": [
+              {
+                "key_code": "mission_control"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "ktmage: Mouse Button 5 → Shift+Cmd+4 (Screenshot)",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "pointing_button": "button5"
+            },
+            "to": [
+              {
+                "key_code": "4",
+                "modifiers": [
+                  "left_shift",
+                  "left_command"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
